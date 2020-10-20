@@ -1,0 +1,17 @@
+{
+  "name": "jweb-rtc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jungwoonlim/jweb-rtc.git",
+  "author": "jungwoonlim <wypo23@morpheus3d.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0"
+  },
+  "homepage": "https://jungwoonlim.github.io/jweb-rtc"
+}
